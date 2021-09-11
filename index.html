@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/styles.css" />
+    <link
+      rel="stylesheet"
+      href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+      integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p"
+      crossorigin="anonymous"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins&family=Source+Sans+Pro:wght@700&display=swap"
+      rel="stylesheet"
+    />
+    <title>M&C Saatchi Group</title>
+  </head>
+  <body>
+    <header>
+      <nav id="navbar">
+        <img src="img/logo.svg" alt="logo" id="logo" />
+        <i class="fas fa-bars fa-2x icon"></i>
+        <!-- <i class="far fa-times fa-2x"></i> -->
+      </nav>
+      <div class="burger">
+        <a href="" class="nav-link">Home</a>
+        <a href="" class="nav-link">Contact</a>
+        <a href="" class="nav-link">Blog</a>
+      </div>
+    </header>
+    <main>
+      <section id="hero">
+        <div class="intro">
+          <h1>
+            We Navigate, Create and Lead <br />
+            Meaningful Change
+          </h1>
+          <p>
+            Tiramisu chupa chups gummies croissant toffee cake bear claw. Jelly
+            beans jelly beans biscuit carrot cake tootsie roll. Cookie chocolate
+            tiramisu bonbon icing shortbread tiramisu powder.
+          </p>
+        </div>
+      </section>
+      <section id="main">
+        <h2 class="main-title">Latest news</h2>
+        <div class="grid">
+          <div class="grid-section">
+            <div class="grid-img first"></div>
+            <h2>Article 1</h2>
+            <p>
+              Lemon drops tootsie roll apple pie chupa chups sweet roll cake.
+              Candy canes bonbon gummi bears sweet soufflé donut cake. Toffee
+              soufflé halvah icing marzipan fruitcake marzipan cookie.
+            </p>
+            <button>Read More</button>
+          </div>
+          <div class="grid-section">
+            <div class="grid-img second"></div>
+            <h2>Article 2</h2>
+            <p>Bonbon topping cheesecake marzipan oat cake jelly-o.</p>
+            <button>Read More</button>
+          </div>
+          <div class="grid-section">
+            <div class="grid-img third"></div>
+            <h2>Article 3</h2>
+            <p>
+              Sweet liquorice gingerbread pastry gingerbread marzipan jujubes
+              candy. Brownie chocolate bar.
+            </p>
+            <button>Read More</button>
+          </div>
+        </div>
+      </section>
+      <section id="newsletter">
+        <form class="news-form" action="/" method="POST">
+          <label for="email">Your email address</label>
+          <div class="inlineForm">
+            <input
+              type="email"
+              name="email"
+              id="email"
+              placeholder="address@domain.com"
+              required
+            />
+            <button id="submit" type="button">Join</button>
+          </div>
+        </form>
+      </section>
+    </main>
+    <footer>
+      <div class="footer">
+        <h2>Copyright <span id="currentYear"></span> M&C Saatchi</h2>
+      </div>
+    </footer>
+    <script src="js/app.js"></script>
+  </body>
+</html>
