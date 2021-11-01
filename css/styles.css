@@ -32,9 +32,9 @@ body {
 }
 
 #logo {
-  max-height: 6vh;
+  max-height: 8vh;
   margin-left: 8%;
-  padding-top: 1%;
+  padding-top: 1px;
 }
 
 .icon {
